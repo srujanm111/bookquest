@@ -27,7 +27,8 @@ parser.add_argument('--question',
                     type=str,
                     required=True,
                     help='Your question to ask the AI')
-parser.add_argument('--apikey',
+parser.add_argument('--api-key',
+                    dest='apikey',
                     type=str,
                     required=True,
                     help='Your OpenAI API key')
