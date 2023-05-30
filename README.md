@@ -16,8 +16,8 @@ Make sure you have Python 3.7+ installed on your machine. Also, make sure that `
 Clone the repository and install the required packages.
 
 ```bash
-git clone https://github.com/user/BookQuest.git
-cd BookQuest
+git clone https://github.com/srujanm111/bookquest.git
+cd bookquest
 pip install -r requirements.txt
 ```
 
