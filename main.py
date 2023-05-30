@@ -69,7 +69,8 @@ if collection is None:
 
     # Collection Creation
     print("Learning book contents...")
-    embeddings = [openai.Embedding.create(input=d, model=EMBEDDING_MODEL)["data"][0]["embedding"] for d in documents]
+    embeddings_result = openai.Embedding.create(input=documents, model=EMBEDDING_MODEL)["data"]
+    embeddings = [embedding["embedding"] for embedding in embeddings_result]
     collection = chroma_client.create_collection(name=filename_hash, embedding_function=embedding_function)
     collection.add(
         documents=documents,
