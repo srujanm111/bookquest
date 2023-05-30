@@ -1,6 +1,6 @@
 # BookQuest: Use AI to Answer Questions from Books!
 
-BookQuest is a fascinating repository that leverages the power of ChatGPT and word embeddings to answer questions based on the text of a book. This AI-powered tool can parse any given book text and answer queries related to it. Ideal for students, researchers, or just curious minds, it brings the future of automated reading and learning to the present.
+BookQuest leverages the power of ChatGPT and word embeddings to answer questions based on the text of a book. This AI-powered tool can parse any given book text and answer queries related to it. Ideal for students, researchers, or just curious minds, it brings the future of automated reading and learning to the present.
 
 ## Features
 
