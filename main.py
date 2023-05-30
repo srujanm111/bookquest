@@ -59,7 +59,7 @@ if filename_hash in collections:
         chroma_client.delete_collection(name=filename_hash)
 if collection is None:
     # File Reading
-    print("Reading book...")
+    print("Reading book... (this may take some time)")
     text = textract.process(args.file).decode()
     encoding = tiktoken.encoding_for_model(GPT_MODEL)
     tokens = encoding.encode(text)
